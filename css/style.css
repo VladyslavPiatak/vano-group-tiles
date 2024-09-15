@@ -286,7 +286,7 @@ img {
 
 @media only screen and (min-width: 1158px) {
   .hero {
-    padding: 188px 0 188px;
+    padding: 282px 0 282px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.5),
         rgba(46, 47, 66, 0.5)
@@ -371,6 +371,34 @@ img {
 }
 
 .modal-input {
+}
+
+/* -----------------------------index---------------------------- */
+/* -----------------------------services---------------------------- */
+
+.services {
+  background: url(../images/plitka-dlya-kuhni.jpg);
+  background-color: var(--color-light-slate);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  max-width: 900px;
+  min-height: 860px;
+}
+
+.container-services {
+}
+
+.service {
+  max-width: 660px;
+  max-height: 860px;
+}
+
+.title-service {
+}
+.list-service {
+}
+.item-list-service {
 }
 
 /* -----------------------------index---------------------------- */
