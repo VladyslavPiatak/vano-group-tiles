@@ -345,7 +345,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: #eef1ff;
   border-radius: 4px;
   margin: 0 auto;
   cursor: pointer;
@@ -377,26 +377,77 @@ img {
 /* -----------------------------services---------------------------- */
 
 .services {
-  background: url(../images/plitka-dlya-kuhni.jpg);
-  background-color: var(--color-light-slate);
+  padding: 112px 0;
+  background-color: var(--title);
+  /* background-image: url(../images/plitka-dlya-kuhni.jpg); */
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: center;
   background-size: cover;
-  max-width: 900px;
-  min-height: 860px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media (min-device-paxel-ratio: 2),
+  (min-resolution: 192),
+  (min-resolution: 2dppx) {
+  .services {
+    background-image: url(../images/plitka-dlya-kuhni.jpg);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .services {
+    background-image: url(../images/plitka-dlya-kuhni.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .services {
+      background-image: url(../images/plitka-dlya-kuhni.jpg);
+    }
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .services {
+    padding: 282px 0 282px;
+    background-image: url(../images/plitka-dlya-kuhni.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .services {
+      background-image: url(../images/plitka-dlya-kuhni.jpg);
+    }
+  }
 }
 
 .container-services {
 }
 
 .service {
-  max-width: 660px;
+  max-width: 360px;
   max-height: 860px;
 }
 
 .title-service {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin-bottom: 72px;
+  max-width: 696px;
+  margin: 0 auto 36px;
+  color: #000;
+  background: linear-gradient(0.25turn, #3f87a681, #ebf8e174, #f69c3c71);
 }
 .list-service {
+  font-size: 30px;
+  color: #000;
+  background: linear-gradient(0.25turn, #3f87a678, #ebf8e175, #f69c3c82);
 }
 .item-list-service {
 }
